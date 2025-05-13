@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #efefef;
+    --foreground: #000000;
   }
 }
 
@@ -23,4 +23,24 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f59e0b; /* Using hex for amber-500 as @apply is not ideal here */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f97316; /* Using hex for orange-500 */
 }

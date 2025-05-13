@@ -9,19 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@novu/nextjs": "^3.2.0",
+    "ai": "^4.3.15",
+    "dom-to-image-more": "^3.6.0",
+    "framer-motion": "^12.11.0",
+    "lucide-react": "^0.510.0",
+    "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.1"
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@ai-sdk/google": "^1.2.13",
+    "@ai-sdk/react": "^1.2.9",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/dom-to-image": "^2.6.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
