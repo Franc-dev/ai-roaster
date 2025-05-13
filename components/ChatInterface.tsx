@@ -266,7 +266,7 @@ const ChatInterface = () => {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
-          <p className="mt-1.5 sm:mt-2 text-sm sm:text-base text-slate-600 max-w-md mx-auto">
+          <p className="mt-1.5 sm:mt-2 text-sm sm:text-base text-slate-600 max-w-md mx-auto pt-2">
             Enter a name and career, then brace yourself for a roast or some praise!
           </p>
         </motion.header>
